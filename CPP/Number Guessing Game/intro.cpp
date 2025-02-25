@@ -12,35 +12,6 @@ int main()
     std::cout << "Welcome to the Number Guessing Game!" << std::endl;
     std::cout << "I have chosen a number between 1 and 100. Can you guess it?" << std::endl;
 
-    // while (userAttempts < maximumTries)
-    // {
-    //     std::cout << "Guess your answer (Attempts left: " << (maximumTries - userAttempts) << "): ";
-
-    //     if (!(std::cin >> userGuess))
-    //     {
-    //         std::cout << "Invalid input! Please enter a number." << std::endl;
-    //         std::cin.clear();
-    //         std::cin.ignore(10000, '\n');
-    //         continue;
-    //     }
-
-    //     userAttempts++;
-    //     if (userGuess == randomNumber)
-    //     {
-    //         std::cout << "🎉 Congratulations! You guessed the correct number: " << randomNumber << std::endl;
-    //         return 0;
-    //     }
-    //     else if (userGuess > randomNumber)
-    //     {
-    //         std::cout << "Too high! Try again." << std::endl;
-    //     }
-    //     else
-    //     {
-    //         std::cout << "Too low! Try again." << std::endl;
-    //     }
-    // }
-    // std::cout << "😞 You've used all your attempts. The correct number was: " << randomNumber << std::endl;
-
     while (true)
     {
         std::cout << "Guess your answer : ";
