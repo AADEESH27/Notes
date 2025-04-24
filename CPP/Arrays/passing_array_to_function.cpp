@@ -8,7 +8,8 @@ void printArray(std::vector<int>& vector)
 }
 
 void printArrayWithPointer(int *arr, int size) {
-    std::cout << "First element: " << *(arr + 2 )<< std::endl;
+    std::cout << "First element: " << arr[2]<< std::endl;
+    // std::cout << "First element: " << *(arr + 2 )<< std::endl;
     return;
 }
 
