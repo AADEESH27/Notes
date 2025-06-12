@@ -11,7 +11,7 @@ int main()
     // 1 methond: generic
     int arr[5] = {1, 2, 3, 4, 5};
     int *arrayPointer = arr;       // address of the first element of the array type: int*
-    int (*pointerToArr)[5] = &arr; // address of the whole array might be similar to the above type: int (*)[5]
+    int (*pointerToArr)[5] = &arr; // address of the whole array might be similar to the type: int (*)[5]
     // numerically they can be same but differ in type
     std::cout << "second element when the address of the whole array is stored in the pointer: " << (*pointerToArr)[1] << std::endl;
     std::cout << "second element when the address of first element is stored in the pointer: " << *(arrayPointer + 1) << std::endl;

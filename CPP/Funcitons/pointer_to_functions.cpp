@@ -1,22 +1,32 @@
-#include<iostream>
+#include <iostream>
 
-int add(int a, int b){
+int add(int a, int b)
+{
     return a + b;
 }
 
-int multiply(int a, int b){
+int multiply(int a, int b)
+{
     return a * b;
 }
 
-int main(){
-  //Syntax: returnType (*op)(int, int) 
+int main()
+{
+    // Syntax: returnType (*op)(int, int)
     int (*op)(int, int);
 
     std::cout << "Enter 1 for addition and 2 for multiplication" << std::endl;
     int n;
     std::cin >> n;
-    if(n == 1) op = add;
-    else op = multiply;
+    switch (n)
+    {
+    case 1:
+        op = add;
+        break;
+    case 2:
+        op = multiply;
+        break;
+    }
 
     std::cout << "Enter the two number: ";
     int num1, num2;
