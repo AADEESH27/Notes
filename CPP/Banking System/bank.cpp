@@ -36,11 +36,13 @@ int main()
             std::cin >> amount;
             withdraw(amount);
             break;
+        case 4:
+            std::cout << "Exiting" << std::endl;
+            break;
         default:
             std::cout << "Invalid choice" << std::endl;
         }
     }
-    std::cout << "Thank You!" << std::endl;
     return 0;
 }
 
