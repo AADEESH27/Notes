@@ -26,7 +26,7 @@ public:
         }
         else
         {
-            capacity = 2 * size;
+            capacity = 2 * capacity;
             temp_arr = new int[capacity];
             for (int i = 0; i < size; i++)
             {
@@ -46,6 +46,7 @@ public:
     ~Vector()
     {
         delete[] arr;
+        delete[] temp_arr;
     }
 };
 

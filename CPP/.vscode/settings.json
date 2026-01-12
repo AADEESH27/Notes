@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*.ejs": "html",
     "iostream": "cpp",
     "__locale": "cpp",
     "__threading_support": "cpp",
@@ -54,6 +55,25 @@
     "__tree": "cpp",
     "list": "cpp",
     "map": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "charconv": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "exception": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "system_error": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "format": "cpp",
+    "numbers": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "text_encoding": "cpp"
   }
 }
